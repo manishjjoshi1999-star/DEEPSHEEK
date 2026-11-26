@@ -1,0 +1,521 @@
+{
+  "users": [
+    {
+      "id": "user-admin-01",
+      "username": "deepseek_admin",
+      "email": "admin@deepseek-infra.io",
+      "passwordHash": "scrypt:2fa90821cfb47ef97fd3add2ad30a7d7:8f8924a3ee4bff1a84296dbbe39488dae75013542c1fc812c9c6badff2be391cca8cd126aba658b1ea1e37654197238db760599a047be2347d232aed5b111efb",
+      "role": "admin",
+      "organization": "DEEPSEEK Operations",
+      "reputation": 100,
+      "createdAt": "2026-11-26T13:45:57.095Z",
+      "lastLoginAt": "2026-11-26T13:45:57.096Z",
+      "lastIp": "127.0.0.1",
+      "lastDevice": "Desktop · API Client",
+      "lastLocation": "Global Web"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-global-t",
+      "name": "Global-T",
+      "slug": "global-t",
+      "category": "Cyber Telemetry & Observability",
+      "price": 7630,
+      "currency": "USDT",
+      "featured": true,
+      "rating": 4.96,
+      "productCode": "GLB-T-4200",
+      "version": "v4.1.2-CYBER",
+      "architecture": "Distributed eBPF / Kubernetes / Multi-Cloud",
+      "description": "Global-T is a high-performance distributed telemetry and system observability suite engineered for massive global-scale infrastructure. Features sub-millisecond event streaming, kernel-level eBPF tracing, automatic distributed mesh topology visualization, and autonomous anomaly detection.",
+      "features": [
+        "Kernel-level eBPF distributed telemetry collection",
+        "Sub-millisecond latency global metric aggregation",
+        "Automated network topology dependency mapping",
+        "Real-time multi-cloud metric streaming pipelines",
+        "High-cardinality time-series analytics engine"
+      ],
+      "requirements": [
+        "Linux Kernel 5.4+ with eBPF support",
+        "Minimum 8GB RAM allocation",
+        "Multi-core x86_64 or ARM64 architecture",
+        "Root / elevated supervisor privileges"
+      ],
+      "screenshots": [
+        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80"
+      ],
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80",
+      "createdAt": "2026-02-01T10:00:00.000Z"
+    },
+    {
+      "id": "prod-sp-kit",
+      "name": "SP-kIT",
+      "slug": "sp-kit",
+      "category": "Stream Processing & Pipelines",
+      "price": 4890,
+      "currency": "USDT",
+      "featured": true,
+      "rating": 4.92,
+      "productCode": "SPK-PROC-220",
+      "version": "v3.8.0-STABLE",
+      "architecture": "Zero-Copy Native C++ / Rust Core",
+      "description": "SP-kIT delivers ultra-low latency real-time stream processing and high-throughput event routing for mission-critical cyber systems. Optimized for zero-copy memory allocation, parallel pipelining, and fault-tolerant state management across distributed event clusters.",
+      "features": [
+        "Zero-copy memory mapped stream ingestion",
+        "High-throughput distributed event broker connector",
+        "Deterministic fault recovery and state snapshots",
+        "Dynamic micro-batching and windowing operators",
+        "Integrated Prometheus & OpenTelemetry instrumentation"
+      ],
+      "requirements": [
+        "64-bit Linux, macOS, or Windows Server",
+        "Minimum 4GB RAM",
+        "C++20 / Rust compatible runtime libraries"
+      ],
+      "screenshots": [
+        "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=800&q=80"
+      ],
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
+      "createdAt": "2026-02-05T12:00:00.000Z"
+    },
+    {
+      "id": "prod-enternalx",
+      "name": "Enternalx",
+      "slug": "enternalx",
+      "category": "Cyber Infrastructure & Gateways",
+      "price": 5213,
+      "currency": "USDT",
+      "featured": true,
+      "rating": 4.98,
+      "productCode": "ENX-CORE-5200",
+      "version": "v5.4.0-LTS",
+      "architecture": "Cloud-Native Microservices / Multi-AZ",
+      "description": "Enternalx is a premier cyber internal systems architecture and zero-trust service gateway. Provides unified API federation, cryptographic identity-based access control, distributed configuration consensus, and automated resilience management for hybrid cloud deployments.",
+      "features": [
+        "Unified cyber API federation and service mesh",
+        "Cryptographic mutual TLS (mTLS) identity verification",
+        "Distributed Raft-based configuration synchronization",
+        "Automatic circuit breaking and dynamic traffic shedding",
+        "Audit-grade compliance telemetry and tamper-evident logging"
+      ],
+      "requirements": [
+        "Kubernetes 1.25+ or Docker Engine 24.0+",
+        "16GB RAM recommended for production clusters",
+        "Dedicated private VPC or internal cyber network"
+      ],
+      "screenshots": [
+        "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80"
+      ],
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80",
+      "createdAt": "2026-02-10T14:30:00.000Z"
+    },
+    {
+      "id": "prod-m-global",
+      "name": "M-global",
+      "slug": "m-global",
+      "category": "Multi-Cloud & Edge Orchestration",
+      "price": 2534,
+      "currency": "USDT",
+      "featured": false,
+      "rating": 4.89,
+      "productCode": "MGL-ORCH-250",
+      "version": "v2.9.4-PRO",
+      "architecture": "Cross-Cloud Agnostic / Edge Runtime",
+      "description": "M-global orchestrates multi-region workloads and global edge computing nodes with instant failover and automated routing. Features automated GeoDNS traffic balancing, hybrid cloud container scheduling, and real-time edge state synchronization.",
+      "features": [
+        "Intelligent GeoDNS and Anycast traffic optimization",
+        "Cross-cloud hybrid workload synchronization",
+        "Zero-downtime blue/green edge deployments",
+        "Edge storage replication with optimistic concurrency",
+        "Real-time health probes and autonomous node healing"
+      ],
+      "requirements": [
+        "Container Runtime (containerd, Docker, or Podman)",
+        "2GB RAM per edge node",
+        "Outbound HTTPS connectivity to control plane"
+      ],
+      "screenshots": [
+        "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?auto=format&fit=crop&w=800&q=80"
+      ],
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80",
+      "createdAt": "2026-02-14T09:15:00.000Z"
+    },
+    {
+      "id": "prod-global-c",
+      "name": "global-c",
+      "slug": "global-c",
+      "category": "Distributed Compute & Cluster Systems",
+      "price": 6774,
+      "currency": "USDT",
+      "featured": true,
+      "rating": 4.95,
+      "productCode": "GLC-COMP-670",
+      "version": "v6.0.2-CYBER",
+      "architecture": "High Performance Compute (HPC) / GPU Accelerated",
+      "description": "global-c is an industrial-grade distributed compute cluster coordinator designed for intense parallel computational workloads, algorithmic simulations, and massive data processing. Features hardware-accelerated scheduling and memory-locality optimizations.",
+      "features": [
+        "Heterogeneous hardware job dispatching (CPU, GPU, FPGA)",
+        "NUMA-aware memory scheduling and caching layer",
+        "Automated cluster partition re-balancing on node flux",
+        "High-efficiency remote direct memory access (RDMA) support",
+        "Comprehensive cluster utilization telemetry dashboard"
+      ],
+      "requirements": [
+        "Clustered server nodes with Linux (RHEL, Ubuntu, Rocky Linux)",
+        "32GB+ RAM recommended for coordinator node",
+        "High-speed interconnect (10GbE or InfiniBand)"
+      ],
+      "screenshots": [
+        "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80"
+      ],
+      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80",
+      "createdAt": "2026-02-18T16:00:00.000Z"
+    },
+    {
+      "id": "prod-cryptopro",
+      "name": "Cryptopro",
+      "slug": "cryptopro",
+      "category": "Cryptographic Security & Verification",
+      "price": 4211,
+      "currency": "USDT",
+      "featured": true,
+      "rating": 4.97,
+      "productCode": "CPR-CRYPT-421",
+      "version": "v4.6.0-PRO",
+      "architecture": "FIPS 140-2 Level 3 Ready / Air-Gapped Capable",
+      "description": "Cryptopro provides cyber-grade cryptographic key management, zero-knowledge verification proofs, and post-quantum resilient cryptographic primitives. Built for banking-grade security architectures, audit compliance, and hardened air-gapped cryptographic workstations.",
+      "features": [
+        "Post-quantum lattice-based encryption algorithms (Kyber, Dilithium)",
+        "Zero-knowledge zk-SNARK computation and verification suite",
+        "HSM integration (PKCS#11 compliant hardware tokens)",
+        "Automated cryptographic key rotation and lifecycle policies",
+        "Verifiable entropy generation and RNG validation harness"
+      ],
+      "requirements": [
+        "Hardware Security Module (HSM) or Air-Gapped Linux/Unix host",
+        "Python 3.11+ or compiled native binary runtime",
+        "Cryptographic hardware acceleration module (AES-NI / AVX-512)"
+      ],
+      "screenshots": [
+        "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=800&q=80"
+      ],
+      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+      "createdAt": "2026-02-22T11:45:00.000Z"
+    },
+    {
+      "id": "prod-f-shoot",
+      "name": "TRANSACTION KIT",
+      "slug": "transaction-kit",
+      "category": "Automated Diagnostics & Fault Resolution",
+      "price": 38547,
+      "currency": "USDT",
+      "featured": true,
+      "rating": 4.99,
+      "productCode": "TXK-970-ULTRA",
+      "version": "v9.7.0-FLAGSHIP",
+      "architecture": "Autonomous Diagnostic Engine / Universal Linux & BSD",
+      "description": "TRANSACTION KIT is the flagship autonomous troubleshooting and system fault-resolution suite for mission-critical tier-1 infrastructure. Features real-time root-cause analysis engines, automated kernel panic analysis, deep network bottleneck isolation, and instant remediation orchestration.",
+      "features": [
+        "Autonomous root-cause diagnosis across 10,000+ infrastructure metrics",
+        "Automated kernel coredump and thread deadlock inspector",
+        "BGP route flapping and microburst packet-drop isolation",
+        "One-click synthetic remediation scripts with rollback guarantees",
+        "24/7 dedicated cyber priority telemetry bridge"
+      ],
+      "requirements": [
+        "Cyber Linux 8+, FreeBSD 13+, or Unix server",
+        "16GB minimum system memory",
+        "Root supervisor permissions for diagnostic probing"
+      ],
+      "screenshots": [
+        "https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80"
+      ],
+      "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format&fit=crop&w=800&q=80",
+      "createdAt": "2026-02-25T18:00:00.000Z"
+    },
+    {
+      "id": "prod-nessus-expert",
+      "name": "Nessus Expert",
+      "slug": "nessus-expert",
+      "category": "Vulnerability Assessment & Surface Management",
+      "price": 3560,
+      "currency": "USDT",
+      "featured": true,
+      "rating": 4.95,
+      "productCode": "NSS-EXP-356",
+      "version": "v10.7.2-EXPERT",
+      "architecture": "Multi-Platform Vulnerability & Attack Surface Scanner",
+      "description": "Nessus Expert is the premier vulnerability assessment and external attack surface management solution. Engineered for security consultants and cyber penetration testers to uncover CVEs, misconfigurations, cloud infrastructure weaknesses (IaC), and discover unmapped internet-facing assets.",
+      "features": [
+        "Comprehensive CVE and zero-day vulnerability scanning engine",
+        "External Attack Surface Management (EASM) domain discovery",
+        "Infrastructure as Code (IaC) security posture scanning (Terraform, CloudFormation)",
+        "Over 75,000+ pre-built compliance and configuration audit checks",
+        "Low false-positive rate with CVSS v3 prioritized remediation guidance"
+      ],
+      "requirements": [
+        "Windows 10/11, Windows Server, Linux (RHEL, Ubuntu, Debian), or macOS",
+        "Minimum 8GB RAM (16GB recommended for cyber ranges)",
+        "Internet connectivity for live plugin updates"
+      ],
+      "screenshots": [
+        "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80"
+      ],
+      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80",
+      "createdAt": "2026-03-01T10:00:00.000Z"
+    },
+    {
+      "id": "prod-cobalt-strike",
+      "name": "Cobalt Strike",
+      "slug": "cobalt-strike",
+      "category": "Adversary Simulation & Red Teaming",
+      "price": 6780,
+      "currency": "USDT",
+      "featured": true,
+      "rating": 4.98,
+      "productCode": "CS-BEACON-678",
+      "version": "v4.9.1-ADVANCED",
+      "architecture": "Team Server & Asynchronous Beacon C2 Framework",
+      "description": "Cobalt Strike is the industry-standard adversary simulation software designed for mature red teams and elite penetration testers. Emulates advanced persistent threat (APT) tactics, featuring stealthy in-memory post-exploitation, customizable Malleable C2 network profiles, and collaborative multi-operator team servers.",
+      "features": [
+        "Malleable C2 network traffic profile evasion and shaping",
+        "Asynchronous Beacon agent with in-memory reflective DLL loading",
+        "Collaborative multi-operator Team Server architecture with session sharing",
+        "Comprehensive MITRE ATT&CK adversary technique replication",
+        "Covert pivoting, SOCKS proxy tunneling, and browser exploitation harness"
+      ],
+      "requirements": [
+        "Linux Team Server (Ubuntu 20.04+, Debian, or Kali Linux)",
+        "Java Runtime Environment (OpenJDK 17+)",
+        "Dedicated command-and-control server infrastructure with public IP"
+      ],
+      "screenshots": [
+        "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=800&q=80"
+      ],
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
+      "createdAt": "2026-03-05T12:00:00.000Z"
+    },
+    {
+      "id": "prod-cymulate",
+      "name": "Cymulate",
+      "slug": "cymulate",
+      "category": "Breach & Attack Simulation (BAS)",
+      "price": 3390,
+      "currency": "USDT",
+      "featured": true,
+      "rating": 4.92,
+      "productCode": "CYM-BAS-339",
+      "version": "v5.2.0-CYBER",
+      "architecture": "Cloud-Native Continuous Automated Security Validation",
+      "description": "Cymulate provides automated breach and attack simulation (BAS) to continuously test and validate cyber security posture. Evaluates endpoint detection (EDR), email gateways, web filters, and internal network perimeters against current threat intelligence campaigns in safe, controlled environments.",
+      "features": [
+        "Continuous automated multi-vector attack path validation",
+        "Endpoint security & EDR evasion stress-testing framework",
+        "Email gateway phishing and weaponized payload filtering validation",
+        "Web Application Firewall (WAF) and DLP egress bypass assessment",
+        "Actionable mitigation guidance and automated SIEM/SOAR integration"
+      ],
+      "requirements": [
+        "Lightweight agent for Windows, Linux, or macOS test endpoints",
+        "Web browser access for centralized SaaS command console",
+        "Outbound HTTPS connectivity to validation cluster"
+      ],
+      "screenshots": [
+        "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80"
+      ],
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80",
+      "createdAt": "2026-03-10T14:30:00.000Z"
+    },
+    {
+      "id": "prod-core-impact",
+      "name": "Core Impact",
+      "slug": "core-impact",
+      "category": "Automated Penetration Testing & Exploitation",
+      "price": 5230,
+      "currency": "USDT",
+      "featured": true,
+      "rating": 4.94,
+      "productCode": "CR-IMP-523",
+      "version": "v21.4-PRO",
+      "architecture": "Multi-Vector Exploit Engine / Client-Server",
+      "description": "Core Impact is an cyber-grade automated penetration testing and vulnerability validation platform. Enables security teams to safely replicate real-world multi-vector attacks across networks, endpoints, web applications, and Wi-Fi using commercially developed, peer-reviewed exploits.",
+      "features": [
+        "Commercially certified, stable exploit library with zero collateral risk",
+        "Multi-stage automated pivoting across compromised network segments",
+        "Web application penetration testing and OWASP Top 10 vulnerability checks",
+        "Bi-directional vulnerability scanner import (Nessus, Qualys, Rapid7)",
+        "Executive and technical regulatory compliance reporting (PCI-DSS, ISO 27001)"
+      ],
+      "requirements": [
+        "Windows 10/11, Windows Server 2019/2022",
+        "Minimum 8GB RAM (16GB recommended)",
+        "Network interface supporting promiscuous mode for network discovery"
+      ],
+      "screenshots": [
+        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80"
+      ],
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80",
+      "createdAt": "2026-03-15T09:15:00.000Z"
+    },
+    {
+      "id": "prod-metasploit-pro",
+      "name": "Metasploit Pro",
+      "slug": "metasploit-pro",
+      "category": "Penetration Testing & Vulnerability Validation",
+      "price": 8010,
+      "currency": "USDT",
+      "featured": true,
+      "rating": 4.97,
+      "productCode": "MSP-PRO-801",
+      "version": "v4.22.0-COMMERCIAL",
+      "architecture": "Multi-Tier Web Console / Post-Exploitation Framework",
+      "description": "Metasploit Pro is the comprehensive commercial penetration testing platform by Rapid7. Accelerates security assessments with automated exploitation wizards, dynamic payload antivirus evasion, team collaboration workspaces, credential harvesting, and integrated social engineering simulations.",
+      "features": [
+        "Automated Quick PenTest wizard for rapid network-wide vulnerability validation",
+        "Dynamic payload generation with advanced anti-virus / EDR evasion",
+        "Cyber team collaboration with multi-user access controls and shared workspaces",
+        "Automated credential harvesting, tag analysis, and credential re-use testing",
+        "Comprehensive compliance audit logs and customizable report generation"
+      ],
+      "requirements": [
+        "Ubuntu Linux, Red Hat Cyber Linux, Kali Linux, or Windows Server",
+        "Minimum 8GB RAM (16GB recommended for concurrent scans)",
+        "PostgreSQL 14+ database backend"
+      ],
+      "screenshots": [
+        "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80"
+      ],
+      "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?auto=format&fit=crop&w=800&q=80",
+      "createdAt": "2026-03-20T16:00:00.000Z"
+    },
+    {
+      "id": "prod-xtransaction-sqm",
+      "name": "XTRANSACTION SQM",
+      "slug": "xtransaction-sqm",
+      "category": "Cyber Transaction & Settlement Systems",
+      "price": 6310,
+      "currency": "USDT",
+      "featured": true,
+      "rating": 4.99,
+      "productCode": "XTX-SQM-6310",
+      "version": "v5.8.0-SQM",
+      "architecture": "Distributed SQM Node Mesh / Quantum-Resistant Settlement Gateway",
+      "description": "XTRANSACTION SQM is a premier cyber-grade decentralized transaction execution and global settlement gateway. Engineered for ultra-high throughput node synchronization, sub-millisecond crypto-routing telemetry, and quantum-resistant cryptographic validation across multi-region distributed networks. Features real-time SQM telemetry, automated ledger consensus reconciliation, and zero-loss failover pipelines.",
+      "features": [
+        "Sub-millisecond high-frequency transaction execution engine",
+        "Autonomous SQM global node consensus & peer telemetry mesh",
+        "Quantum-resistant cryptographic signature & zero-knowledge validation",
+        "Real-time multi-threaded mempool analytics and dynamic priority routing",
+        "Encrypted RPC tunneling with automated DDoS deflection and failover"
+      ],
+      "requirements": [
+        "64-bit Linux (Ubuntu 22.04+, RHEL 9+) or FreeBSD",
+        "Dedicated NVMe SSD storage with minimum 32GB RAM",
+        "High-speed synchronous fiber uplink (1Gbps+ recommended)",
+        "Multi-core x86_64 architecture with hardware AES-NI acceleration"
+      ],
+      "screenshots": [
+        "/assets/aistudio/photo_2026-10-28_15-38-07_94d5651a.jpg",
+        "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80"
+      ],
+      "image": "/assets/aistudio/photo_2026-10-28_15-38-07_94d5651a.jpg",
+      "createdAt": "2026-03-25T10:00:00.000Z"
+    },
+    {
+      "id": "prod-sql-flash",
+      "name": "SQL-FLASH V7.9.1",
+      "slug": "sql-flash-v7-9-1",
+      "category": "Database Acceleration & Flash Storage",
+      "price": 881,
+      "currency": "USDT",
+      "featured": true,
+      "rating": 4.94,
+      "productCode": "SQL-FLS-791",
+      "version": "v7.9.1-LTS",
+      "architecture": "NVMe Smart Flash Cache / Zero-Copy SQL Storage Engine",
+      "description": "SQL-FLASH V7.9.1 is an enterprise-grade database flash-cache and NVMe storage acceleration engine engineered for ultra-low-latency relational workloads. Eliminates disk I/O bottlenecks through intelligent hot-page pinning, parallel WAL flash tiering, and ACID-compliant snapshot recovery across high-throughput PostgreSQL, MySQL, and distributed SQL clusters.",
+      "features": [
+        "Sub-millisecond NVMe flash-cache indexing for hot SQL query pages",
+        "Parallel Write-Ahead Log (WAL) flash buffer acceleration",
+        "Zero-downtime live cache warming and adaptive wear-leveling",
+        "ACID-compliant atomic checkpointing and instant snapshot rollback",
+        "Real-time IOPS telemetry and query-plan latency profiler"
+      ],
+      "requirements": [
+        "64-bit Linux Kernel 5.10+ with NVMe-oF or local PCIe Gen4/Gen5 NVMe",
+        "Minimum 16GB system RAM and 64GB dedicated flash-cache volume",
+        "PostgreSQL 14+, MySQL 8.0+, or MariaDB 10.6+ engine"
+      ],
+      "screenshots": [
+        "/assets/sql_flash_module.jpg"
+      ],
+      "image": "/assets/sql_flash_module.jpg",
+      "createdAt": "2026-03-28T10:00:00.000Z"
+    }
+  ],
+  "orders": [],
+  "activityLogs": [
+    {
+      "id": "log-8e92054f",
+      "action": "ADMIN_LOGIN",
+      "category": "AUTH",
+      "details": "Administrator console session unlocked",
+      "actor": "admin@deepseek-infra.io",
+      "targetId": "user-admin-01",
+      "ip": "127.0.0.1",
+      "device": "Desktop · API Client",
+      "timestamp": "2026-11-26T13:45:57.096Z"
+    },
+    {
+      "id": "log-boot",
+      "action": "SYSTEM_BOOT",
+      "category": "ADMIN",
+      "details": "DEEPSEEK live marketplace engine initialized.",
+      "actor": "system",
+      "timestamp": "2026-11-26T13:42:26.594Z"
+    }
+  ],
+  "licenses": [],
+  "discounts": [
+    {
+      "id": "disc-enterprise-10",
+      "code": "DEEPSEEK10",
+      "type": "percent",
+      "value": 10,
+      "active": true,
+      "maxUses": 100,
+      "usedCount": 0,
+      "description": "10% Enterprise Onboarding Credit",
+      "createdAt": "2026-11-25T21:54:08.338Z"
+    }
+  ],
+  "tickets": [],
+  "usedTxHashes": {},
+  "siteSettings": {
+    "brandName": "DEEPSEEK",
+    "tagline": "Deephat & Developer Infrastructure Marketplace",
+    "supportEmail": "support@deepseek-infra.io",
+    "announcementText": "Independent Deephat & Developer Infrastructure Marketplace · USDT (TRC-20) On-Chain Settlement",
+    "announcementActive": true,
+    "trc20ReceivingAddress": "TL9sU4A1ydN9AT2LTaC7P94K4y4BdAgDFx",
+    "trc20Network": "Tron TRC-20",
+    "requiredConfirmations": 19,
+    "orderExpiryMinutes": 60,
+    "dispatchChannel": "@getfilex_bot"
+  },
+  "adminPasscodeHash": "scrypt:a51ca6729c934fc7fda3faaa927995e6:e20b7657318d90893df5a47673336dcff593551c34483e82842452ea50d6e4522d02afd78bef18c1628d769220273c085036e23823ad9e79c0a630067f8895f0"
+}
